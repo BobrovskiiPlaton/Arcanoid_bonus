@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3988506496843363164}
   - component: {fileID: 3988506496843363155}
   - component: {fileID: 973066016696241221}
+  - component: {fileID: -4355227451219911921}
   m_Layer: 8
   m_Name: Purple Block
   m_TagString: Wall
@@ -128,6 +129,22 @@ MonoBehaviour:
   textObject: {fileID: 0}
   hitsToDestroy: 30
   points: 100
+--- !u!114 &-4355227451219911921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3988506496843363154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d51938dcc21a94fbc7be694c419976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {x: -1, y: 0}
+  pointB: {x: 1, y: 0}
+  moveSpeed: 2
+  useSmoothMovement: 1
 --- !u!1 &6453419833002224064
 GameObject:
   m_ObjectHideFlags: 0
