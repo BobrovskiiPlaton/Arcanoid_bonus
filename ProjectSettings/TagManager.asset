@@ -7,6 +7,8 @@ TagManager:
   - Wall
   - Ball
   - Block
+  - Bonus
+  - BottomWall
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - Player
   - Ball
   - Block
-  - 
-  - 
+  - Bonus
+  - BottomWall
   - 
   - 
   - 

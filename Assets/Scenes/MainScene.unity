@@ -265,6 +265,7 @@ MonoBehaviour:
   redPrefab: {fileID: 308592043562271923, guid: 71ff70ab5b9570d49b8ea14de08310a6, type: 3}
   greenPrefab: {fileID: 8164886552062393433, guid: 0d22d041d2568c64889b9b880d140db3, type: 3}
   yellowPrefab: {fileID: 2159805878283136646, guid: 3276a08b008259542baeafd8612ef084, type: 3}
+  purplePrefab: {fileID: 3988506496843363154, guid: cac61e51824c9da4187484f0001b475a, type: 3}
   ballPrefab: {fileID: 4535183632793755779, guid: 98469331b03713a44b5c6cadf41070af, type: 3}
   gameData: {fileID: 11400000, guid: 85434341168f93a40908a295a7c6cd8a, type: 2}
   pointSound: {fileID: 8300000, guid: ae23addfd9a2cf043b65fa7872c81b14, type: 3}
@@ -877,9 +878,9 @@ GameObject:
   - component: {fileID: 1925131751}
   - component: {fileID: 1925131750}
   - component: {fileID: 1925131749}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Bottom Wall
-  m_TagString: Wall
+  m_TagString: BottomWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
