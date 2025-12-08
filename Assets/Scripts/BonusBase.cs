@@ -7,6 +7,7 @@ public class BonusBase : MonoBehaviour
     public string bonusText = "+100";
     public Color backgroundColor = Color.yellow;
     public Color textColor = Color.black;
+    public int bonusPoints = 100; // Добавляем поле для очков
     
     // Ссылки на компоненты
     private SpriteRenderer spriteRenderer;
@@ -35,8 +36,17 @@ public class BonusBase : MonoBehaviour
     // Виртуальный метод активации бонуса
     public virtual void BonusActivate()
     {
-        // Добавляем 100 очков (базовая реализация)
-        Debug.Log("Бонус активирован: +100 очков");
+        // Находим PlayerScript и добавляем очки
+        PlayerScript player = FindObjectOfType<PlayerScript>();
+        if (player != null)
+        {
+            player.BlockDestroyed(bonusPoints);
+            Debug.Log($"Бонус активирован: +{bonusPoints} очков");
+        }
+        else
+        {
+            Debug.LogWarning("PlayerScript не найден!");
+        }
         
         // Уничтожаем объект бонуса
         Destroy(gameObject);
@@ -57,5 +67,4 @@ public class BonusBase : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
 }
