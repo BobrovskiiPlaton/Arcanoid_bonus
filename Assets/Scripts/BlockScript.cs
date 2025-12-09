@@ -25,6 +25,7 @@ public class BlockScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(collision.gameObject.CompareTag("Ball"))
         {
             hitsToDestroy--;
             if (hitsToDestroy == 0)

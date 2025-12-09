@@ -9,6 +9,7 @@ TagManager:
   - Block
   - Bonus
   - BottomWall
+  - PurpleWall
   layers:
   - Default
   - TransparentFX

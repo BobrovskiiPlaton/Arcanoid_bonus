@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4355227451219911921}
   m_Layer: 8
   m_Name: Purple Block
-  m_TagString: Wall
+  m_TagString: PurpleWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,10 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d51938dcc21a94fbc7be694c419976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointA: {x: -1, y: 0}
-  pointB: {x: 1, y: 0}
-  moveSpeed: 2
-  useSmoothMovement: 1
+  speed: 3
 --- !u!1 &6453419833002224064
 GameObject:
   m_ObjectHideFlags: 0

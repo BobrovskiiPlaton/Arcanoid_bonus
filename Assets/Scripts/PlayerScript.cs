@@ -19,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     public GameObject greenPrefab;
     public GameObject yellowPrefab;
     public GameObject purplePrefab;
+    public GameObject orangePrefab;
     public GameObject ballPrefab;
     
     static Collider2D[] colliders = new Collider2D[50];
@@ -160,6 +161,7 @@ public class PlayerScript : MonoBehaviour
         CreateBlocks(greenPrefab, xMax, yMax, 1 + level, 12);
         CreateBlocks(yellowPrefab, xMax, yMax, 2 + level, 15);
         CreateBlocks(purplePrefab, xMax, yMax, 2 + level, 7);
+        CreateBlocks(orangePrefab, xMax, yMax, 2 + level, 7);
         CreateBalls();
 
     }
